@@ -1,0 +1,49 @@
+.project-list {
+   padding: 0 2rem;
+   flex: 1;
+}
+
+.list-group {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.img-content {
+   position: relative;
+}
+
+img {
+   border-radius: .4rem .4rem 0 0;
+   width: 32rem;
+   max-height: 20rem;
+   max-width: 32rem;
+
+
+}
+
+.project {
+   width: 65vw;
+   margin: 0 auto;
+   display: flex;
+   height: 86vh;
+   margin-top: 3rem;
+}
+
+.link-register {
+   border: 2px solid var(--primary);
+   padding: 1rem;
+   margin-top: 2rem;
+   border-radius: .6rem;
+   cursor: pointer;
+   transition: all .3s;
+}
+
+.link-register:hover {
+   transform: scale(1.03);
+}
+
+.checkbox-group {
+   display: flex;
+   flex-direction: column;
+}

@@ -1,0 +1,42 @@
+header {
+   width: 100%;
+   /* margin-bottom: 3rem; */
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 2rem;
+   height: 6rem;
+   background-color: #fff;
+}
+
+/* Classes */
+
+.logo {
+   margin: 0 2rem;
+   font-size: 2rem;
+   color: var(--secondary);
+}
+
+.nav-user {
+   flex: 1;
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+
+.nav-link {
+   margin: 0 2rem;
+   transition: all 0.3s;
+   cursor: pointer;
+   color: var(--primary);
+}
+
+
+.nav-link:hover {
+   color: var(--secondary);
+}
